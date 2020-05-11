@@ -7,7 +7,7 @@ SUPERVISOR_VERSION = "220"
 
 
 URL_HASSIO_ADDONS = "https://github.com/home-assistant/hassio-addons"
-URL_HASSIO_VERSION = "https://raw.githubusercontent.com/baurzhan/hassio-installer/master/files/{channel}.json"
+URL_HASSIO_VERSION = "https://gitlab.com/connected-home/hassio-installer/-/raw/master/files/{channel}.json"
 URL_HASSIO_APPARMOR = "https://version.home-assistant.io/apparmor.txt"
 
 URL_HASSOS_OTA = (

@@ -166,6 +166,10 @@ def initialize_system_data(coresys: CoreSys):
         coresys.updater.channel = UpdateChannels.DEV
         coresys.config.logging = LogLevel.DEBUG
         coresys.config.debug = True
+    channel = os.environ.get("UPDATER_CHANNEL", "").strip()
+    if channel:
+        _LOGGER.info("Updater channel is %s", channel)
+        coresys.updater.channel = channel
 
 
 def migrate_system_env(coresys: CoreSys):
