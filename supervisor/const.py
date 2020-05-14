@@ -8,7 +8,7 @@ SUPERVISOR_VERSION = "222"
 
 URL_HASSIO_ADDONS = "https://github.com/home-assistant/hassio-addons"
 URL_HASSIO_VERSION = "https://gitlab.com/connected-home/hassio-installer/-/raw/master/files/{channel}.json"
-URL_HASSIO_APPARMOR = "https://version.home-assistant.io/apparmor.txt"
+URL_HASSIO_APPARMOR = "https://gitlab.com/connected-home/hassio-installer/-/raw/master/files/apparmor.txt"
 
 URL_HASSOS_OTA = (
     "https://github.com/home-assistant/operating-system/releases/download/"
@@ -145,7 +145,7 @@ ATTR_PRIVILEGED = "privileged"
 ATTR_USER = "user"
 ATTR_SYSTEM = "system"
 ATTR_SNAPSHOTS = "snapshots"
-ATTR_HOMEASSISTANT = "homeassistant"
+ATTR_HOMEASSISTANT = "core"
 ATTR_HASSIO_API = "hassio_api"
 ATTR_HOMEASSISTANT_API = "homeassistant_api"
 ATTR_UUID = "uuid"
