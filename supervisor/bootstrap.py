@@ -168,7 +168,7 @@ def initialize_system_data(coresys: CoreSys):
         coresys.config.debug = True
     channel = os.environ.get("UPDATER_CHANNEL", "").strip()
     if channel:
-        _LOGGER.info("Updater channel is %s", channel)
+        _LOGGER.info("Updater channel is: %s", channel)
         coresys.updater.channel = channel
 
 
